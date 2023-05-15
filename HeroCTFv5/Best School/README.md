@@ -5,4 +5,4 @@ Format : Hero{flag}
 Author : Worty
 
 Challenge đầu tiên là Best Schools, cái nhìn đầu tiên mình thấy một trang web gồm 1 bảng xếp hạng các trường, mục đích là ta cần đưa Flag CyberSecurity School lên đầu và sau đó ta sẽ có được flag :>
-image.png
+![1](./1.png)
