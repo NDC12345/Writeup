@@ -27,7 +27,7 @@ class exploit:
 		return self.sess.get('%s/articles/%s'%(self.url,note)).text
 
 exp = exploit(
-	url='http://13.37.17.31:54330',
+	url='http://13.37.17.31:54333',
 	session=requests.session()
 )
 exp.register()
