@@ -15,3 +15,4 @@ Thử đằng nhập bằng admin|admin và WOW đăng nhập thành công, ok t
 Hừm sau một hồi thử đi thử lại được vài gợi ý thì mình để ý có vẻ web này được viết bằng PHP nên khả năng phải bypass thông qua PHP filter. Yeah và cuối cùng mình cũng thành công 
 
 ![5](./5.png)
+Decode nó thôi và ta có được flag dead{nice_br0_XE3_3s_h3h3}
